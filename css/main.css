@@ -1,0 +1,168 @@
+*{
+    font-family: Roboto,'Helvetica Neue',Arial,sans-serif;
+}
+
+h1, h2, p {
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #383e4e;
+	color: #FFF;
+}
+
+ /*QUESTIONS H2 */
+h2{
+    
+    font-size: 30px;
+    text-align: left;
+}
+
+
+#content{
+    display: grid;
+    gap: 2em;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: center;
+ }
+
+ 
+#quizHIDE {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ header h1{
+     color:white;
+     text-align:left;
+     font-size:70px;
+     text-shadow: 2px 2px 2px rgb(0 0 0 / 75%);
+ }
+ 
+ #status{
+     font-style: italic;
+     height:32px;
+ }
+
+ .result{
+    display: flex;
+    flex-direction: column;
+ }
+.result span{
+    order: -1;
+}
+
+
+/* SEARCH FOR QUESTION BUTTON */
+button{
+ margin: 2em;
+  display : inline-block;
+  cursor : pointer;
+  border-style : solid;
+  border-width : 1px;
+  border-radius : 2px;
+  padding : 10px 18px;
+  box-shadow : 0 1px 4px rgba(0,0,0,.6);
+  font-size : 9.5pt;
+  font-weight : bold;
+  color : #fff;
+  text-shadow : 0 1px 3px rgba(0,0,0,.4);
+  font-family : sans-serif;
+  text-decoration : none;
+}
+
+button.green{
+    border-color: #ddd;
+      background: black;
+}
+
+button:hover{
+    background: #505050;
+}
+
+button:active{
+    background: #573838;
+    box-shadow : 0 0 6px rgba(0,0,0,.6);
+}
+
+button:focus {outline:0;}
+
+.widgets{
+    margin-top: 1em;
+    margin-bottom:1em;
+}
+
+
+
+/* NAVBAR */
+#navbar{
+    overflow: hidden;
+    background-color:#262a35;
+    position: fixed; 
+    width: 100%; 
+    top: 0;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/*NAVBAR END*/
+
+/* HEADER */
+@import url(https://fonts.googleapis.com/css?family=Calligraffitti);
+
+.container {
+  background-image: linear-gradient(135deg, rgba(52, 152, 219,0.5) 0%,
+  rgba(243, 65, 65, 0.4) 100%), url(../images/smashBanner.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: contain
+}
+
+
+/* INPUT BUTTONS */
+input{
+    margin: 2em;
+     display : inline-block;
+     cursor : pointer;
+     border-style : solid;
+     border-width : 1px;
+     border-radius : 2px;
+     padding : 10px 18px;
+     box-shadow : 0 1px 4px rgba(0,0,0,.6);
+     font-size : 9.5pt;
+     font-weight : bold;
+     color : black;
+     text-shadow : 0 1px 3px rgba(0,0,0,.4);
+     font-family : sans-serif;
+     text-decoration : none;
+   }
+   
+   input.green{
+       border-color: #ddd;
+         background: black;
+   }
+   
+   input:hover{
+       background: #505050;
+   }
+   
+   input:focus {outline:0;}
+   

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>Video Game Trivia</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/main2.js"></script>
+	
+</head>
+<body>
+<header>
+	<div id="navbar">
+		<a href="project2.html">Home</a>
+		<a href="https://opentdb.com/browse.php?query=Entertainment%3A+Video+Games&type=Category#" 
+				target="_blank">Browse Questions</a>
+		<a href="https://opentdb.com" target="_blank">API Site</a>
+		<a href="https://people.rit.edu/jdm4830/235/project2/doc.html" target="_blank">Documentation Page</a>
+	</div>
+	<div class="container" id="co">
+		<canvas id="c"></canvas>
+		<h1>Video Game
+			Trivia
+			API
+		</h1>
+	  </div>
+</header>
+
+<main>
+<div id="quizHIDE">
+<div class="widgets">
+	<h3>How Many Questions? (1-50)</h3>
+	<input id="searchterm" type="text" size="20" maxlength="20" autofocus value="10"/>
+	<br>
+
+	<h3>Select A Difficulty</h3>
+	<select id="difficultyterm">
+		<option value="Any" selected>Any</option>
+		<option value="Easy">Easy</option>
+		<option value="Medium">Medium</option>
+		<option value="Hard">Hard</option>
+	</select>
+	<br>
+
+	<h3>Select Type of Questions</h3>
+	<select id="typeterm">
+		<option value="Any" selected>Any</option>
+		<option value="multiple">Multiple Choice</option>
+		<option value="boolean">True / False</option>
+	</select>
+	<br>
+
+	<button type="button" id="search" class="green">QUIZ TIME!</button>
+</div>
+</div>
+
+
+<div class="reloadContent">
+	<h2>QUESTIONS</h2>
+	<div id="content">
+		<p>CLICK THE BUTTON TO LOAD QUESTIONS!</p>
+	</div>
+</div>
+
+</main>
+</body>
+</html>
